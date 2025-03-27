@@ -1,6 +1,3 @@
-Here's a README file in Markdown format for the GitHub repository based on the abstract and methods section from the paper:
-
-```markdown
 # Delmarva IBV Microbiome Analysis Pipeline
 
 ## Overview
