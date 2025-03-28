@@ -3,28 +3,28 @@
 ## :cherry_blossom: Overview :cherry_blossom:
 This repository contains the bioinformatics analysis workflow for investigating how Delmarva (DMV1639) infectious bronchitis virus infection alters the microbiome of gastrointestinal and respiratory tracts of broiler chickens. The analysis characterizes tracheal and cecal microbiome changes at 6, 9, and 15 days post-infection.
 
-## Analysis Workflow
+## :cyclone: Analysis Workflow
 
-### Quality Control
+### ✅ Quality Control
 - Raw sequencing reads were assessed using **FastQC (Version 0.12.1)**
 
-### Taxonomy Analysis
+### ✅ Taxonomy Analysis
 - **Kraken2** was used for taxonomic classification of reads
 - Viral-associated reads were excluded from further analysis
 
-### Assembly
+### ✅ Assembly
 Reads passing quality control were assembled using two de novo assembly approaches:
 - **metaSPAdes (Version 3.15.5)**
 - **megahit**
 
-### Functional Analysis
+### ✅ Functional Analysis
 - **HUMAnN3** was employed for functional analysis on 5 million forward reads
 - Results were visualized in R (4.4.1)
 
-### Resistome Analysis
+### ✅ Resistome Analysis
 - **AMRFinderPlus** database was used to analyze assembled contigs for antimicrobial resistance genes
 
-### Statistical Analysis and Visualization
+### ✅ Statistical Analysis and Visualization
 All statistical analyses and visualizations were performed in R and RStudio (4.4.1) using:
 - **phyloseq** - for microbiome data analysis
 - **ggplot2** - for data visualization
@@ -32,7 +32,7 @@ All statistical analyses and visualizations were performed in R and RStudio (4.4
 - **vegan** - for ecological diversity analysis
 - **MaAsLin2** - for microbiome multivariable association with linear models
 
-#### Diversity Metrics
+#### ✅ Diversity Metrics
 **Alpha Diversity Analysis:**
 - Simpson index
 - Shannon index
@@ -43,12 +43,12 @@ All statistical analyses and visualizations were performed in R and RStudio (4.4
 - Non-metric multidimensional scaling (NMDS) ordination
 - Statistical significance assessed with Permutational Multivariate Analysis of Variance (PERMANOVA)
 
-#### Metabolic Pathway Analysis
+#### ✅ Metabolic Pathway Analysis
 - **PICRUSt** was used to derive the metabolic capacity of the microbiome
 - Greengenes database was used to develop a reference phylogenetic tree
 - Gene counts per sample were linked to KEGG pathways
 
-## References
+## :cyclone: References
 
 1. Wood DE, Lu J, Langmead B. Improved metagenomic analysis with Kraken 2. Genome Biol. 2019;20(1):257.
 2. Nurk S, et al. metaSPAdes: a new versatile metagenomic assembler. Genome Res. 2017;27(5):824-834.
