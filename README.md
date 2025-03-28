@@ -1,6 +1,6 @@
 # Delmarva IBV Microbiome Analysis Pipeline
 
-## Overview :cherry_blossom:
+## :cherry_blossom: Overview :cherry_blossom:
 This repository contains the bioinformatics analysis workflow for investigating how Delmarva (DMV1639) infectious bronchitis virus infection alters the microbiome of gastrointestinal and respiratory tracts of broiler chickens. The analysis characterizes tracheal and cecal microbiome changes at 6, 9, and 15 days post-infection.
 
 ## Analysis Workflow
